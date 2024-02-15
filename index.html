@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow Meow Website | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class ='logo'> 30MFF </h2>
+        <nav class="navigation">
+            <a href="#" class="active">Home<span></span></a>
+            <a href="#aboutSection">About<span></span></a>
+            <a href="#filmSection">Film<span></span></a> 
+            <a href="#contactSection">Contact<span></span></a>
+        </nav>
+        <!-- navigation portion -->
+        
+
+    </header>
+
+    <section class = "parallax">
+
+        <h2 id = "text"> Meow Mates</h2>
+        <img src = "sources/cat-left.png" id = "cat-left">
+        <img src = "sources/cat-right.png" id = "cat-right" >
+        <img src = "sources/grass.png" id = "grass">
+        <!-- parallax section and objects -->
+
+    </section>
+
+    <section class="sec" id="aboutSection">
+        <h2 class="centered-section-title">About</h2>
+        <p style="font-size: 20px;">Ever felt alone at university? It's something many of us have experienced, walking through campus surrounded by people but still feeling a bit isolated. This project started from those feelings. We wanted to create a space where everyone can feel seen and connected. Whether you're having a tough day or just need a place to share, we're here for you.</p>
+    </section>
+
+    
+    <section id="filmSection" class="sec">
+        <h2 class="centered-section-title">Film</h2>
+        <div class="video-container">
+            <iframe 
+                class="responsive-iframe"
+                src="https://www.youtube.com/embed/tMYZ53bUOkE" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+    <!-- section for film displayed via youtube -->
+    
+    
+
+    <section id="catFactsSection" class="sec">
+        <button onclick="getCatFact()">Get Cat Fact</button>
+        <p id="catFact"></p>
+    </section>
+    
+    <!-- section about cat facts -->
+
+    <section id="contactSection" class="sec">
+        <div class="about-me-container">
+            <img src="sources/DACHI FINAL.jpg" alt="Your Photo" class="passport-photo">
+            <div class="about-me-text">
+                <p>I'm a student studying Computer Science and Interactive Media, passionate about technology and coding. Feel free to reach out!</p>
+            </div>
+        </div>
+    </section>
+  
+    <section class="sec" id="aboutSection">
+        <p style="font-size: 20px;"> NYUADreach is a dedicated platform for mental health and well-being at NYUAD. It hosts frequent meetings and workshops to allow individuals to share their concerns, bond with others, and find support in a safe environment. You can learn more about them on their Instagram</p>
+    </section>
+
+    <!-- section about contact information -->
+
+    <div class="contact-icons">
+        
+        <a href="mailto:dt2307@nyu.edu">
+            <img src="sources/gmail.png" alt="Gmail" class="contact-icon"> 
+        </a>
+        <a href="https://github.com/dachi256" target="_blank">
+            <img src="sources/github.png" alt="GitHub" class="contact-icon"> 
+        </a>
+        <a href="https://www.instagram.com/reach.nyuad/?hl=en" target="_blank">
+            <img src="sources/instagram.png" alt="Instagram" class="contact-icon">
+        </a>
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
